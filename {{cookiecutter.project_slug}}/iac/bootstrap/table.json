@@ -1,0 +1,16 @@
+{
+  "TableName": "{{ cookiecutter.project_slug }}-tf_state",
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "LockID",
+      "AttributeType": "S"
+    }
+  ],
+  "KeySchema": [
+    {
+      "KeyType": "HASH",
+      "AttributeName": "LockID"
+    }
+  ],
+  "BillingMode": "PAY_PER_REQUEST"
+}

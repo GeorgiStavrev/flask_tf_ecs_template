@@ -1,0 +1,4 @@
+bucket="{{ cookiecutter.project_slug }}-tf"
+dynamodb_table="{{ cookiecutter.project_slug }}-tf_state"
+key="{{ cookiecutter.project_slug }}-tf_TEST.state"
+region="eu-west-1"

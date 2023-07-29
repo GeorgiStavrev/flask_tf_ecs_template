@@ -1,0 +1,12 @@
+{
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::<AccountID>:user/<UserName>"
+      },
+      "Action": "s3:*",
+      "Resource": "arn:aws:s3:::<BucketName>"
+    }
+  ]
+}
